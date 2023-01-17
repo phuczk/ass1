@@ -2,69 +2,238 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 900px;
-	height: 1000px;
-	border: 3px solid black;
-	color: white;
-	text-align: center;
-	font-size: 50px;
+	border: 1px solid black;
 }
+
 .banner {
 	width: 100%;
-	height: 100%;
+	height: 600px;
 }
+
 header {
 	width: 100%;
-	height: 150px;
 }
 
 nav {
 	width: 100%;
+	color: white;
+}
+
+nav.nav {
+	overflow: hidden;
+	background-color: orange;
+	text-align: center;
+}
+
+.nav a {
+	float: center;
+	display: block;
+	color: white;
+	text-align: center;
+	font-size: 36px;
+	text-decoration: none;
+	width: 20%;
 	height: 50px;
+}
+
+.nav a:hover {
+	background-color: #FF9900;
+	color: black;
+}
+
+.box {
+	text-align: center;
+	display: flex;
 }
 
 article {
 	width: 70%;
-	height: 600px;
-	background-color: green;
+	height: 1200px;
+	background-color: #FFFFCC;
 	float: left;
+	font-family: arial;
 }
 
-aside {
-	width: 30%;
-	height: 600px;
+.forminput {
+	display: block;
+	width: 500px;
+	height: 300px;
+	background-color: #f7941d;
+}
+
+.formlayout {
+	width: 700px;
+	height: 800px;
+	background-color: white;
+	border: 1px solid black;
+	display: block;
+	margin: auto;
+	margin-top: 40px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.headerlayout {
+	width: 100%;
+	height: 20%;
 	background-color: greenyellow;
+}
+.headerlayout:hover {
+	scale: 1.3;
+	opacity: 0.5;
+} 
+.navlayout {
+	width: 100%;
+	height: 5%;
+	background-color: skyblue;
+}
+.navlayout:hover {
+	scale: 1.3;
+	opacity: 0.5;
+}
+.articlelayout {
+	width: 70%;
+	height: 50%;
+	background-color: yellow;
+	float: left;
+}
+.articlelayout:hover {
+	scale: 1.3;
+	opacity: 0.5;
+}
+.asidelayout {
+	width: 30%;
+	height: 50%;
+	background-color: orange;
 	float: right;
+}
+.asidelayout:hover {
+	scale: 1.3;
+	opacity: 0.5;
+}
+.footerlayout {
+	width: 100%;
+	height: 25%;
+	background-color: pink;
+	clear: both;
+}
+.footerlayout:hover {
+	scale: 1.3;
+	opacity: 0.5;
+}
+aside {
+	width: 29%;
+	height: 1200px;
+	float: right;
+	font-size: 27px;
+	background-color: #EEEEEE;
+	border: 1px solid black;
+	margin-right: 5px;
+	font-family: arial;
+}
+
+.tt {
+	width: 120px;
+	height: 90px;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-bottom: 18px;
+}
+
+.tt1:hover img {
+	scale: 1.3;
+	opacity: 0.7;
+}
+
+.tt1:hover {
+	color: skyblue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.tt2:hover img {
+	scale: 1.3;
+	opacity: 0.7;
+}
+
+.tt2:hover {
+	color: skyblue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.tt3:hover img {
+	scale: 1.3;
+	opacity: 0.7;
+}
+
+.tt3:hover {
+	color: skyblue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.tt4:hover img {
+	scale: 1.3;
+	opacity: 0.7;
+}
+
+.tt4:hover {
+	color: skyblue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.tt5:hover img {
+	scale: 1.3;
+	opacity: 0.7;
+}
+
+.tt5:hover {
+	color: skyblue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.tt6:hover img {
+	scale: 1.3;
+	opacity: 0.7;
+}
+
+.tt6:hover {
+	color: skyblue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.buttonmore {
+	background-color: green;
+	color: white;
+	border: none;
+	text-align: center;
+	height: 45px;
+	width: 400px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 12px;
+}
+
+.buttonmore:hover {
+	background-color: #00CC00;
+	cursor: pointer;
 }
 
 footer {
 	clear: both;
 	width: 100%;
-	height: 200px;
-	background-color: purple;
+	height: 500px;
+	background-color: #192041;
+	border-top: 10px solid orange;
+	font-family: arial;
 }
 
-nav.nav {
-  overflow: hidden;
-  background-color: orange;
-  text-align: center;
-}
-
-.nav a {
-  float: center;
-  display:block;
-  color: white;
-  text-align: center;
-  font-size: 36px;
-  text-decoration: none;
-  width: 20%;
-  height: 100%;
-}
-
-.nav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-.box {
-	text-align: center;
+.hiden-xs {
+	color: white;
+	padding-left: 20px;
 }
